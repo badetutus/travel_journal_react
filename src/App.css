@@ -1,0 +1,91 @@
+.App {
+  width: 470px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background: rgb(189, 109, 194);
+  background: linear-gradient(
+    90deg,
+    rgba(189, 109, 194, 1) 0%,
+    rgba(162, 116, 173, 1) 35%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  align-items: center;
+}
+
+.container {
+  margin-top: 25px;
+  width: 470px;
+  height: 168px;
+  display: flex;
+  padding: 10px;
+}
+
+.container img {
+  width: 125px;
+  height: 168px;
+  margin-left: 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px black;
+}
+
+main {
+  margin-left: 10px;
+}
+
+nav {
+  background:#386dab;
+  width: 480px;
+  height: 55px;
+  color: white;
+  font-family: Inter;
+  font-size: 14.46px;
+  font-weight: 500;
+  line-height: 17.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px black;
+  
+}
+
+main h3 {
+  display: flex;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: 12.39px;
+  letter-spacing: 0.17em;
+  text-align: left;
+  gap: 25px;
+}
+
+main h2 {
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30.26px;
+  text-align: left;
+}
+
+h3 a {
+  font-family: Inter;
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: 12.39px;
+  text-align: left;
+  color: purple;
+}
+
+main p {
+  width: 326px;
+  height: 45px;
+
+  left: 184px;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.36px;
+  text-align: left;
+}
